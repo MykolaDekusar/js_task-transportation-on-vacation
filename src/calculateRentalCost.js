@@ -6,7 +6,7 @@
 function calculateRentalCost(days) {
   // write code here
   if (days <= 0) {
-    return error;
+    return 0;
   }
 
   const total = days * 40;
